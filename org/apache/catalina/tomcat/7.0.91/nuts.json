@@ -15,7 +15,7 @@
   ],
   "dependencies": [],
   "installer":{
-    "args":["nsh","chmod","+x","bin/*.sh","bin/*.bat"],
+    "args":["nsh","-c","chmod","+x","bin/*.sh","bin/*.bat"],
     "properties":{"unzip-skip-root":"true"}
   }
 }
