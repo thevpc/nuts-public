@@ -1,3 +1,6 @@
+#version=0.5.7
+net/
+org/
 README.md
 nuts-repository.json
 version.txt
