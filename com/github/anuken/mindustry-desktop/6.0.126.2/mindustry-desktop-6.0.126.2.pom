@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>Mindustry Desktop</name>
+
+    <artifactId>mindustry-desktop</artifactId>
+    <groupId>com.github.anuken</groupId>
+    <version>6.0.126.2</version>
+    <packaging>jar</packaging>
+
+    <description>MuMindustry Desktop Game</description>
+
+    <url>https://github.com/Anuken/Mindustry</url>
+     
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.source.level>17</project.source.level>
+        <project.target.level>17</project.target.level>
+        <nuts.gui>true</nuts.gui>
+        <nuts.genericName>Game</nuts.genericName>
+        <nuts.icons>
+            https://img.apkmodhere.com/v1/f/13f989b68d7412e5a177fb13b36ac66f/icon.png
+        </nuts.icons>
+        <nuts.categories>/Game</nuts.categories>
+        <nuts.location.url>https://github.com/Anuken/Mindustry/releases/download/v126.2/Mindustry.jar</nuts.location.url>
+    </properties>
+    
+    <issueManagement>
+        <url>https://github.com/Anuken/Mindustry/issues</url>
+        <system>Github Issues</system>
+    </issueManagement>
+    <scm>
+        <connection>scm:git:git:https://github.com/Anuken/Mindustry.git</connection>
+        <url>https://github.com/Anuken/Mindustry.git</url>
+    </scm>
+
+    <licenses>
+        <license>
+            <name>GNU General Public License version 3.0 (GPLv3)</name>
+            <url>https://www.gnu.org/licenses/gpl-3.0.en.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <dependencies>
+    </dependencies>
+
+
+
+</project>

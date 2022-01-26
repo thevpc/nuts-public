@@ -1,6 +1,6 @@
 {
   "uuid": "b8461228-1d15-4a52-8729-d6a5fd225c6a",
-  "name": "vpc-public-vpc",
-  "type": "nuts+files",
-  "configVersion": "0.8.1"
+  "name": "vpc-public-nuts",
+  "type": "dotfilefs",
+  "configVersion": "0.8.3"
 }

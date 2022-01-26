@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>JD-Gui</name>
+
+    <artifactId>jd-gui</artifactId>
+    <groupId>org.jd</groupId>
+    <version>1.6.6</version>
+    <packaging>jar</packaging>
+
+    <description>Java Decompiler</description>
+
+    <url>http://java-decompiler.github.io</url>
+     
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.source.level>1.8</project.source.level>
+        <project.target.level>1.8</project.target.level>
+        <nuts.gui>true</nuts.gui>
+        <nuts.genericName>Java Decompiler</nuts.genericName>
+        <nuts.icons>
+            http://java-decompiler.github.io/img/Icon_java_64.png
+        </nuts.icons>
+        <nuts.categories>/Development</nuts.categories>
+        <nuts.location.url>https://github.com/java-decompiler/jd-gui/releases/download/v1.6.6/jd-gui-1.6.6.jar</nuts.location.url>
+    </properties>
+    
+    <issueManagement>
+        <url>https://github.com/java-decompiler/jd-gui/issues</url>
+        <system>Github Issues</system>
+    </issueManagement>
+    <scm>
+        <connection>scm:git:git:https://github.com/java-decompiler/java-decompiler.git</connection>
+        <url>https://github.com/java-decompiler/java-decompiler.git</url>
+    </scm>
+
+    <licenses>
+        <license>
+            <name>GNU General Public License version 3.0 (GPLv3)</name>
+            <url>https://www.gnu.org/licenses/old-licenses/gpl-3.0.en.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <dependencies>
+    </dependencies>
+
+
+
+</project>
