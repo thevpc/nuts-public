@@ -1,0 +1,5 @@
+#version=0.8.3
+_remote.repositories
+maven-metadata-local.xml
+omnigraph-1.0-SNAPSHOT.jar
+omnigraph-1.0-SNAPSHOT.pom
