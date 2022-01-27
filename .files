@@ -1,6 +1,8 @@
-#version=0.5.7
+#version=0.8.3
+com/
+jpass/
 net/
+omnigraph/
 org/
 README.md
 nuts-repository.json
-version.txt
