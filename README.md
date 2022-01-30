@@ -1,2 +1,2 @@
-# vpc-public-nuts
+# nuts-public
 Default Public Nuts Repository
