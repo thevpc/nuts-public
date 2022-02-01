@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>JDiskReport</name>
+
+    <artifactId>jdiskreport</artifactId>
+    <groupId>com.jgoodies</groupId>
+    <version>2beta2</version>
+    <packaging>jar</packaging>
+
+    <description>JDiskReport enables you to understand how much space the files and directories consume on your disk drives, and it helps you find obsolete files and folders.</description>
+
+    <url>http://www.jgoodies.com/freeware/jdiskreport/</url>
+     
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.source.level>1.8</project.source.level>
+        <project.target.level>1.8</project.target.level>
+        <nuts.gui>true</nuts.gui>
+        <nuts.genericName>Disk Usage Tool</nuts.genericName>
+        <nuts.icons>
+            http://www.jgoodies.com/wp-content/uploads/2012/04/o1960-300x234.jpg
+        </nuts.icons>
+        <nuts.categories>/Utilities</nuts.categories>
+        <nuts.location.url>http://www.jgoodies.com/download/jdiskreport2/jdiskreport-2beta2.jar</nuts.location.url>
+    </properties>
+    
+    <licenses>
+        <license>
+            <name>Freeware</name>
+            <url>http://www.jgoodies.com/downloads/jdiskreport/</url>
+            <distribution>binaries</distribution>
+        </license>
+    </licenses>
+
+    <dependencies>
+    </dependencies>
+
+
+</project>
