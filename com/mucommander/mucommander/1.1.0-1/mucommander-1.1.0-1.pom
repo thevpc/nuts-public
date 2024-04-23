@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>muCommander</name>
+
+    <artifactId>mucommander</artifactId>
+    <groupId>com.mucommander</groupId>
+    <version>1.1.0-1</version>
+    <packaging>zip</packaging>
+
+    <description>MuCommander File Manager</description>
+
+    <url>https://www.mucommander.com</url>
+     
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.source.level>1.8</project.source.level>
+        <project.target.level>1.8</project.target.level>
+        <nuts.gui>true</nuts.gui>
+        <nuts.genericName>File Manager</nuts.genericName>
+        <nuts.icons>
+            https://raw.githubusercontent.com/thevpc/vpc-public-nuts/master/com/mucommander/mucommander/1.1.0-1/mucommander-icon.png
+        </nuts.icons>
+        <nuts.categories>/Utilities</nuts.categories>
+        <nuts.executor>exec -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true ${NUTS_ID_APPS}/mucommander-1.1.0-1.jar --preferences ${NUTS_ID_CONFIG}</nuts.executor>
+        <nuts.location.url>raw.githubusercontent.com/thevpc/vpc-public-nuts/master/com/mucommander/mucommander/1.1.0-1/mucommander-1.1.0-1-portable.zip</nuts.location.url>
+    </properties>
+    
+    <issueManagement>
+        <url>https://github.com/mucommander/mucommander/issues</url>
+        <system>Github Issues</system>
+    </issueManagement>
+    <scm>
+        <connection>scm:git:git:https://github.com/mucommander/mucommander.git</connection>
+        <url>https://github.com/mucommander/mucommander.git</url>
+    </scm>
+
+    <licenses>
+        <license>
+            <name>GNU General Public License version 2.0 (GPLv2)</name>
+            <url>https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <dependencies>
+    </dependencies>
+
+
+
+</project>
