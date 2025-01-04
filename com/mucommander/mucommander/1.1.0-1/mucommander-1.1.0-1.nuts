@@ -1,0 +1,63 @@
+{
+  "id": "com.mucommander:mucommander#1.1.0-1",
+  "packaging": "zip",
+  "executor": {
+    "id": "exec",
+    "arguments": [
+      "-Dawt.useSystemAAFontSettings=on",
+      "-Dswing.aatext=true",
+      "${NUTS_ID_APPS}/mucommander-1.1.0-1.jar",
+      "--preferences",
+      "${NUTS_ID_CONFIG}"
+    ]
+  },
+  "name": "muCommander",
+  "icons": [
+    "https://raw.githubusercontent.com/thevpc/vpc-public-nuts/master/com/mucommander/mucommander/1.1.0-1/mucommander-icon.png"
+  ],
+  "categories": [
+    "/Utilities"
+  ],
+  "genericName": "File Manager",
+  "description": "MuCommander File Manager",
+  "condition": {
+    "platform": [
+      "java#1.8"
+    ]
+  },
+  "locations": [
+    {
+      "url": "raw.githubusercontent.com/thevpc/vpc-public-nuts/master/com/mucommander/mucommander/1.1.0-1/mucommander-1.1.0-1-portable.zip"
+    }
+  ],
+  "flags": [
+    "gui",
+    "exec"
+  ],
+  "properties": [
+    {
+      "name": "project.build.sourceEncoding",
+      "value": "UTF-8",
+      "condition": {}
+    },
+    {
+      "name": "project.source.level",
+      "value": "1.8",
+      "condition": {}
+    },
+    {
+      "name": "project.target.level",
+      "value": "1.8",
+      "condition": {}
+    }
+  ],
+  "licenses": [
+    {
+      "id": "GNU General Public License version 2.0 (GPLv2)",
+      "name": "GNU General Public License version 2.0 (GPLv2)",
+      "url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html",
+      "distribution": "repo",
+      "properties": {}
+    }
+  ]
+}

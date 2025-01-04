@@ -1,0 +1,53 @@
+{
+  "id": "org.jd:jd-gui#1.6.6",
+  "packaging": "jar",
+  "name": "JD-Gui",
+  "icons": [
+    "http://java-decompiler.github.io/img/Icon_java_64.png"
+  ],
+  "categories": [
+    "/Development"
+  ],
+  "genericName": "Java Decompiler",
+  "description": "Java Decompiler",
+  "condition": {
+    "platform": [
+      "java#1.8"
+    ]
+  },
+  "locations": [
+    {
+      "url": "https://github.com/java-decompiler/jd-gui/releases/download/v1.6.6/jd-gui-1.6.6.jar"
+    }
+  ],
+  "flags": [
+    "gui",
+    "exec"
+  ],
+  "properties": [
+    {
+      "name": "project.build.sourceEncoding",
+      "value": "UTF-8",
+      "condition": {}
+    },
+    {
+      "name": "project.source.level",
+      "value": "1.8",
+      "condition": {}
+    },
+    {
+      "name": "project.target.level",
+      "value": "1.8",
+      "condition": {}
+    }
+  ],
+  "licenses": [
+    {
+      "id": "GNU General Public License version 3.0 (GPLv3)",
+      "name": "GNU General Public License version 3.0 (GPLv3)",
+      "url": "https://www.gnu.org/licenses/old-licenses/gpl-3.0.en.html",
+      "distribution": "repo",
+      "properties": {}
+    }
+  ]
+}

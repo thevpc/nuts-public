@@ -1,0 +1,53 @@
+{
+  "id": "com.jgoodies:jdiskreport#2beta2",
+  "packaging": "jar",
+  "name": "JDiskReport",
+  "icons": [
+    "http://www.jgoodies.com/wp-content/uploads/2012/04/o1960-300x234.jpg"
+  ],
+  "categories": [
+    "/Utilities"
+  ],
+  "genericName": "Disk Usage Tool",
+  "description": "JDiskReport enables you to understand how much space the files and directories consume on your disk drives, and it helps you find obsolete files and folders.",
+  "condition": {
+    "platform": [
+      "java#1.8"
+    ]
+  },
+  "locations": [
+    {
+      "url": "http://www.jgoodies.com/download/jdiskreport2/jdiskreport-2beta2.jar"
+    }
+  ],
+  "flags": [
+    "gui",
+    "exec"
+  ],
+  "properties": [
+    {
+      "name": "project.build.sourceEncoding",
+      "value": "UTF-8",
+      "condition": {}
+    },
+    {
+      "name": "project.source.level",
+      "value": "1.8",
+      "condition": {}
+    },
+    {
+      "name": "project.target.level",
+      "value": "1.8",
+      "condition": {}
+    }
+  ],
+  "licenses": [
+    {
+      "id": "Freeware",
+      "name": "Freeware",
+      "url": "http://www.jgoodies.com/downloads/jdiskreport/",
+      "distribution": "binaries",
+      "properties": {}
+    }
+  ]
+}

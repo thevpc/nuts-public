@@ -1,0 +1,53 @@
+{
+  "id": "com.github.anuken:mindustry-desktop#6.0.126.2",
+  "packaging": "jar",
+  "name": "Mindustry Desktop",
+  "icons": [
+    "https://img.apkmodhere.com/v1/f/13f989b68d7412e5a177fb13b36ac66f/icon.png"
+  ],
+  "categories": [
+    "/Game"
+  ],
+  "genericName": "Game",
+  "description": "MuMindustry Desktop Game",
+  "condition": {
+    "platform": [
+      "java#17"
+    ]
+  },
+  "locations": [
+    {
+      "url": "https://github.com/Anuken/Mindustry/releases/download/v126.2/Mindustry.jar"
+    }
+  ],
+  "flags": [
+    "gui",
+    "exec"
+  ],
+  "properties": [
+    {
+      "name": "project.build.sourceEncoding",
+      "value": "UTF-8",
+      "condition": {}
+    },
+    {
+      "name": "project.source.level",
+      "value": "17",
+      "condition": {}
+    },
+    {
+      "name": "project.target.level",
+      "value": "17",
+      "condition": {}
+    }
+  ],
+  "licenses": [
+    {
+      "id": "GNU General Public License version 3.0 (GPLv3)",
+      "name": "GNU General Public License version 3.0 (GPLv3)",
+      "url": "https://www.gnu.org/licenses/gpl-3.0.en.html",
+      "distribution": "repo",
+      "properties": {}
+    }
+  ]
+}

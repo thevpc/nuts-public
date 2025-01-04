@@ -1,0 +1,37 @@
+{
+  "id": "com.github.todense:omnigraph#1.0-SNAPSHOT",
+  "packaging": "jar",
+  "name": "",
+  "categories": [],
+  "description": "",
+  "condition": {
+    "platform": [
+      "java#11"
+    ]
+  },
+  "dependencies": [
+    "org.testfx:testfx-core#4.0.16-alpha?scope=test-api",
+    "org.junit.jupiter:junit-jupiter-engine#5.8.1?scope=test-api&exclusions=org.apiguardian:apiguardian-api,org.junit.platform:junit-platform-engine",
+    "org.junit.jupiter:junit-jupiter-api#5.8.1?scope=test-api&exclusions=org.apiguardian:apiguardian-api,org.junit.platform:junit-platform-commons,org.opentest4j:opentest4j",
+    "org.testfx:testfx-junit5#4.0.16-alpha?scope=test-api",
+    "org.assertj:assertj-core#3.21.0?scope=test-api",
+    "org.junit.jupiter:junit-jupiter-params#5.8.1?scope=test-api&exclusions=org.apiguardian:apiguardian-api"
+  ],
+  "properties": [
+    {
+      "name": "maven.compiler.target",
+      "value": "11",
+      "condition": {}
+    },
+    {
+      "name": "maven.compiler.source",
+      "value": "11",
+      "condition": {}
+    },
+    {
+      "name": "project.build.sourceEncoding",
+      "value": "UTF-8",
+      "condition": {}
+    }
+  ]
+}
