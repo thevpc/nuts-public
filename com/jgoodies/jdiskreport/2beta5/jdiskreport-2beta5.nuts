@@ -1,5 +1,5 @@
 {
-  "id": "com.jgoodies:jdiskreport#2beta2",
+  "id": "com.jgoodies:jdiskreport#2beta5",
   "packaging": "jar",
   "name": "JDiskReport",
   "icons": [
@@ -17,7 +17,7 @@
   },
   "locations": [
     {
-      "url": "http://www.jgoodies.com/download/jdiskreport2/jdiskreport-2beta2.jar"
+      "url": "http://www.jgoodies.com/download/jdiskreport2/jdiskreport-2beta5.jar"
     }
   ],
   "flags": [
