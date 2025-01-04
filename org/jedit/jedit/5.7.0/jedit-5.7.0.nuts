@@ -1,0 +1,65 @@
+{
+  "id": "org.jedit:jedit#5.6.0",
+  "packaging": "jar",
+  "executor": {
+    "arguments": [
+      "-Dawt.useSystemAAFontSettings=on",
+      "-Dswing.aatext=true",
+      "-Djedit.home=${NUTS_ID_APPS}",
+      "--prepend-arg=-settings=${NUTS_ID_CONFIG}"
+    ]
+  },
+  "installer": {
+    "id": "net.thevpc.nuts.toolbox:nsh",
+    "arguments": [
+      "https://raw.githubusercontent.com/thevpc/vpc-public-nuts/master/org/jedit/jedit/5.6.0/jedit-installer-0.5.6.nsh",
+      "${NUTS_MODE}",
+      "${NUTS_ID}",
+      "${NUTS_ID_APPS}"
+    ]
+  },
+  "name": "JEdit",
+  "icons": [
+    "https://raw.githubusercontent.com/thevpc/vpc-public-nuts/master/org/jedit/jedit/5.6.0/jedit-icon48.png"
+  ],
+  "categories": [
+    "/Utilities"
+  ],
+  "genericName": "Text Editor",
+  "description": "JEdit Text Editor",
+  "condition": {
+    "platform": [
+      "java#1.6"
+    ]
+  },
+  "flags": [
+    "gui",
+    "exec"
+  ],
+  "properties": [
+    {
+      "name": "project.build.sourceEncoding",
+      "value": "UTF-8",
+      "condition": {}
+    },
+    {
+      "name": "project.source.level",
+      "value": "1.6",
+      "condition": {}
+    },
+    {
+      "name": "project.target.level",
+      "value": "1.6",
+      "condition": {}
+    }
+  ],
+  "licenses": [
+    {
+      "id": "GNU General Public License version 2.0 (GPLv2)",
+      "name": "GNU General Public License version 2.0 (GPLv2)",
+      "url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html",
+      "distribution": "repo",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>JEdit</name>
+
+    <artifactId>jedit</artifactId>
+    <groupId>org.jedit</groupId>
+    <version>5.6.0</version>
+    <packaging>jar</packaging>
+
+    <description>JEdit Text Editor</description>
+
+    <url>http://jedit.org/</url>
+    
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.source.level>1.6</project.source.level>
+        <project.target.level>1.6</project.target.level>
+        <nuts.gui>true</nuts.gui>
+        <nuts.genericName>Text Editor</nuts.genericName>
+        <nuts.icons>
+            https://raw.githubusercontent.com/thevpc/vpc-public-nuts/master/org/jedit/jedit/5.6.0/jedit-icon48.png
+        </nuts.icons>
+        <nuts.categories>/Utilities</nuts.categories>
+        <nuts.installer>net.thevpc.nuts.toolbox:nsh https://raw.githubusercontent.com/thevpc/vpc-public-nuts/master/org/jedit/jedit/5.6.0/jedit-installer-0.5.6.nsh ${NUTS_MODE} ${NUTS_ID} ${NUTS_ID_APPS}</nuts.installer>
+        <nuts.executor>-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Djedit.home=${NUTS_ID_APPS} --prepend-arg=-settings=${NUTS_ID_CONFIG}</nuts.executor>
+    </properties>
+    
+    <issueManagement>
+        <url>https://sourceforge.net/p/jedit/bugs/</url>
+        <system>Sourceforge Issues</system>
+    </issueManagement>
+    <scm>
+        <connection>scm:svn:svn:https://svn.code.sf.net/p/jedit/svn/jEdit/trunk/</connection>
+        <url>https://svn.code.sf.net/p/jedit/svn/jEdit/trunk/</url>
+    </scm>
+
+    <licenses>
+        <license>
+            <name>GNU General Public License version 2.0 (GPLv2)</name>
+            <url>https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <dependencies>
+    </dependencies>
+
+
+
+</project>
