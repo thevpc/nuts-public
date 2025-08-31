@@ -27,7 +27,7 @@
             https://raw.githubusercontent.com/thevpc/vpc-public-nuts/master/com/mucommander/mucommander/0.9.7-1/mucommander-icon.png
         </nuts.icons>
         <nuts.categories>/Utilities</nuts.categories>
-        <nuts.executor>exec -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true ${NUTS_ID_APPS}/mucommander-0.9.7.jar --preferences ${NUTS_ID_CONFIG}</nuts.executor>
+        <nuts.executor>exec -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true ${NUTS_ID_BIN}/mucommander-0.9.7.jar --preferences ${NUTS_ID_CONF}</nuts.executor>
         <nuts.location.url>https://github.com/mucommander/mucommander/releases/download/0.9.7-1/mucommander-0.9.7-1-portable.zip</nuts.location.url>
     </properties>
     
