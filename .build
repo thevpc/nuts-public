@@ -1,0 +1,2 @@
+#!/bin/sh
+nuts-dev -ZyS --confined settings update stats .
