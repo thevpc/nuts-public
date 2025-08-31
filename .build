@@ -1,2 +1,3 @@
 #!/bin/sh
+nuts-dev -ZyS --confined nops maven transform-pom-to-nuts --path=0
 nuts-dev -ZyS --confined settings update stats .
