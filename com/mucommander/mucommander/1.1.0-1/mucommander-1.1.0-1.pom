@@ -27,7 +27,7 @@
             https://raw.githubusercontent.com/thevpc/vpc-public-nuts/master/com/mucommander/mucommander/1.1.0-1/mucommander-icon.png
         </nuts.icons>
         <nuts.categories>/Utilities</nuts.categories>
-        <nuts.executor>exec -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true ${NUTS_ID_APPS}/mucommander-1.1.0-1.jar --preferences ${NUTS_ID_CONFIG}</nuts.executor>
+        <nuts.executor>exec -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true ${NUTS_ID_BIN}/mucommander-1.1.0-1.jar --preferences ${NUTS_ID_CONF}</nuts.executor>
         <nuts.location.url>raw.githubusercontent.com/thevpc/vpc-public-nuts/master/com/mucommander/mucommander/1.1.0-1/mucommander-1.1.0-1-portable.zip</nuts.location.url>
     </properties>
     
