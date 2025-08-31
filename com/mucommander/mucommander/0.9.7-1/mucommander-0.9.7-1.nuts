@@ -6,9 +6,9 @@
     "arguments": [
       "-Dawt.useSystemAAFontSettings=on",
       "-Dswing.aatext=true",
-      "${NUTS_ID_APPS}/mucommander-0.9.7.jar",
+      "${NUTS_ID_BIN}/mucommander-0.9.7.jar",
       "--preferences",
-      "${NUTS_ID_CONFIG}"
+      "${NUTS_ID_CONF}"
     ]
   },
   "name": "muCommander",
