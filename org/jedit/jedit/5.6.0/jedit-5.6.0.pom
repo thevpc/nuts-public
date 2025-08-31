@@ -27,8 +27,8 @@
             https://raw.githubusercontent.com/thevpc/vpc-public-nuts/master/org/jedit/jedit/5.6.0/jedit-icon48.png
         </nuts.icons>
         <nuts.categories>/Utilities</nuts.categories>
-        <nuts.installer>net.thevpc.nsh:nsh https://raw.githubusercontent.com/thevpc/vpc-public-nuts/master/org/jedit/jedit/5.6.0/jedit-installer-0.5.6.nsh ${NUTS_MODE} ${NUTS_ID} ${NUTS_ID_APPS}</nuts.installer>
-        <nuts.executor>-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Djedit.home=${NUTS_ID_APPS} --prepend-arg=-settings=${NUTS_ID_CONFIG}</nuts.executor>
+        <nuts.installer>net.thevpc.nsh:nsh https://raw.githubusercontent.com/thevpc/vpc-public-nuts/master/org/jedit/jedit/5.6.0/jedit-installer-0.5.6.nsh ${NUTS_MODE} ${NUTS_ID} ${NUTS_ID_BIN}</nuts.installer>
+        <nuts.executor>-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Djedit.home=${NUTS_ID_BIN} --prepend-arg=-settings=${NUTS_ID_CONF}</nuts.executor>
     </properties>
     
     <issueManagement>
