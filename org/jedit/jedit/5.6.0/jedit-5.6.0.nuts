@@ -10,7 +10,7 @@
     ]
   },
   "installer": {
-    "id": "net.thevpc.nuts.toolbox:nsh",
+    "id": "net.thevpc.nsh:nsh",
     "arguments": [
       "https://raw.githubusercontent.com/thevpc/vpc-public-nuts/master/org/jedit/jedit/5.6.0/jedit-installer-0.5.6.nsh",
       "${NUTS_MODE}",
