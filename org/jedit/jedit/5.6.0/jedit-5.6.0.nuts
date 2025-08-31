@@ -5,8 +5,8 @@
     "arguments": [
       "-Dawt.useSystemAAFontSettings=on",
       "-Dswing.aatext=true",
-      "-Djedit.home=${NUTS_ID_APPS}",
-      "--prepend-arg=-settings=${NUTS_ID_CONFIG}"
+      "-Djedit.home=${NUTS_ID_BIN}",
+      "--prepend-arg=-settings=${NUTS_ID_CONF}"
     ]
   },
   "installer": {
@@ -15,7 +15,7 @@
       "https://raw.githubusercontent.com/thevpc/vpc-public-nuts/master/org/jedit/jedit/5.6.0/jedit-installer-0.5.6.nsh",
       "${NUTS_MODE}",
       "${NUTS_ID}",
-      "${NUTS_ID_APPS}"
+      "${NUTS_ID_BIN}"
     ]
   },
   "name": "JEdit",
