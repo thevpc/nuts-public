@@ -1,4 +1,4 @@
-#version=0.8.8
+#version=0.8.9
 _remote.repositories
 maven-metadata-local.xml
 omnigraph-1.0-SNAPSHOT.jar
